@@ -172,6 +172,9 @@ with open(
 ) as file:
 
     pickle.dump(model, file)
+with open("models/model_columns.pkl", "wb") as f:
+    pickle.dump(X.columns.tolist(), f)
+
 
 print("\nModel Saved Successfully")
 print("Location: models/heart_model.pkl")
