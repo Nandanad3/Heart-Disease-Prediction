@@ -263,26 +263,6 @@ python src/predict.py
 streamlit run app/app.py
 ```
 
----
-
-## 📷 Screenshots
-
-Add screenshots here:
-
-### Home Page
-
-Insert screenshot
-
-### Prediction Result
-
-Insert screenshot
-
-### Evaluation Output
-
-Insert screenshot
-
----
-
 ## 🔮 Future Enhancements
 
 * Random Forest Classifier
